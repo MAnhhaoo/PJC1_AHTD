@@ -1,0 +1,45 @@
+.Header_Bg{
+    background-image: url(../../assets/img/h1.webp);
+    background-repeat: no-repeat;
+    background-size: cover ;
+    height: 180px;
+}
+.ant-col{
+    padding: 31px 0px;
+}
+.Header_Text{
+    color: white;
+    font-size: 16px;
+    padding: 12px 140px 0px;
+    display: flex;
+    justify-content: space-between;
+}
+.Header_phone{
+    margin-right: 143px;
+}
+.span_text{
+    text-decoration:underline;
+}
+.ant-input-affix-wrapper{
+    width: 90%;
+}
+.Header_Btn{
+    display: flex;
+    justify-content:start;
+    padding: 8px 0;
+    align-items: center;
+}
+.custom-input::placeholder {
+  font-size: 16px;
+  font-style: italic; /* nếu muốn */
+  color: #999; /* đổi màu */
+}
+
+.header_arr{
+    font-weight: 600;
+    color: white;
+    font-size: 14px;
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+}
