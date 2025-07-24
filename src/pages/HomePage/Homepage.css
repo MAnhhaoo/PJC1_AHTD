@@ -1,0 +1,7 @@
+.Home_drop{
+    display: flex;
+    justify-content: space-around;
+    font-size: 15px;
+    max-width: 1553px;
+    margin: 12px 109px;
+}

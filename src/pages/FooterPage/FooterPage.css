@@ -1,0 +1,29 @@
+ul {
+    list-style-type: none;
+    padding-left: 0;
+  }
+li {
+    margin: 2px 0;
+    list-style-type: none;
+}
+
+.footer-certification{
+    text-align: center;
+    font-size: 14px;
+    color: rgb(97, 93, 93);
+    font-weight: 400;
+    padding: 10px 0px;
+}
+
+
+.container{
+    max-width: 1280px;
+    max-height: max-content;
+    margin: 0 auto;
+    padding: 0 0;
+    display: block;
+    font-size: 16px;
+    font-family: Inter, "Inter fallback";
+    font-weight: 400;
+}
+
