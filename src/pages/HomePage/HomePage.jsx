@@ -3,7 +3,9 @@ import { DownOutlined } from '@ant-design/icons';
 import { Dropdown, Space } from 'antd';
 import "./Homepage.css";
 import FooterPage from '../FooterPage/FooterPage';
+import SimpleSlider from '../../SlickComponent/SlickComponent';
 
+import sick1 from '../../assets/img/homePage/sick1 .webp';
 const HomePage = () => {
   const ArrTitle = [
     'Thực phẩm chức năng',
@@ -57,6 +59,17 @@ const HomePage = () => {
         </Dropdown>
       ))}
       <span> Hệ thống nhà thuốc</span>
+        </div>
+      <div style={{maxWidth: "1550px"}}>
+        <SimpleSlider settings={{infinite: false}}>
+          <div >
+            <img src={sick1} alt="" />
+          </div>
+        </SimpleSlider>
+      </div>
+
+
+        <div>
         </div>
       </div>
   );
