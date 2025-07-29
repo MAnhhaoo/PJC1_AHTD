@@ -1,0 +1,61 @@
+.custom-tab {
+  padding: 6px 8px;
+  text-align: center;
+}
+
+.time-text {
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.content_tab{
+  width: 28% !important;
+  text-align: center;
+}
+
+.status-text {
+  font-size: 13px;
+}
+
+.red-text {
+  color: #e40000;
+}
+
+.active-tab {
+  background-color: #ffecec;
+  border-bottom: 2px solid red;
+}
+
+.tab-content {
+  padding: 10px 0;
+}
+
+.custom-arrow.next-arrow {
+  right: -20px;
+  background: white;
+  border-radius: 50%;
+  font-size: 24px;
+  width: 32px;
+  height: 32px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+  line-height: 32px;
+  text-align: center;
+  position: absolute;
+  top: 35%;
+  z-index: 2;
+  cursor: pointer;
+}
+
+.countdown-timer {
+  margin: 10px 0;
+  font-size: 18px;
+}
+
+.countdown-timer span {
+  background-color: red;
+  color: white;
+  padding: 4px 8px;
+  border-radius: 5px;
+  margin: 0 3px;
+  font-weight: bold;
+}

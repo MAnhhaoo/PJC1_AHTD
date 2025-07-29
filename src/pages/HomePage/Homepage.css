@@ -3,5 +3,18 @@
     justify-content: space-around;
     font-size: 15px;
     max-width: 1553px;
-    margin: 12px 109px;
+    margin: 0 109px 12px 109px;
+}
+.title_medicine{
+    border: 1px solid white;
+    border-radius: 12px;
+    padding: 19px;
+    background-color: white;
+}
+.title_medicine a {
+    text-decoration: none;
+    color:  black;
+}
+.name_medicine {
+    padding: 0 0 0 9px;
 }

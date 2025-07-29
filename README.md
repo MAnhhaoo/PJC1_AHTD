@@ -14,3 +14,6 @@ If you are developing a production application, we recommend using TypeScript wi
 <!-- DEV HAO  -->
 <!-- date 24/07/2025 -->
 <!-- npm-react-slick  -->
+
+<!-- npm install -D tailwindcss postcss autoprefixer
+npx tailwindcss init -p -->
